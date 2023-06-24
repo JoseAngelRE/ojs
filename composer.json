@@ -1,0 +1,13 @@
+{
+    "name": "jare/revista",
+    "description": "Revista UADY",
+    "type": "project",
+    "authors": [
+      {
+        "name": "Jose Ruiz",
+        "email": "a19216272@alumnos.uady.mx"
+      }
+    ],
+    "version": "0.1",
+    "license": "MIT"
+  }
