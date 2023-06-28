@@ -32,9 +32,6 @@
 			{include file="frontend/components/skipLinks.tpl"}
 
 			<div class="pkp_head_wrapper">
-
-				
-
 				<div class="pkp_site_name_wrapper">
 					<button class="pkp_site_nav_toggle">
 						<span>Open Menu</span>
@@ -71,17 +68,6 @@
 						</a>
 					{/if}
 					</div>
-						<!--
-					<div class="logo_fmat">
-					<a href="https://www.matematicas.uady.mx/">
-						<img src="{$baseUrl}/templates/images/structure/fmat.png" alt="logo facultad de matematicas" width="" height="60" />
-					</a>
-					</div>
-						-->
-					<!--<div class="issn">
-						<img src="{$baseUrl}/templates/images/structure/issn.png" alt="issn" width="" height="60" />
-					</div>-->
-
 					<div class="issnText">
 					<h1>ISSN 2007 - 2635</h1>					
 					</div>
