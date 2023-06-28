@@ -25,26 +25,22 @@
 }
 
 .pkp_site_name_wrapper {
-	//height: @nav-menu-height;
 	height: 6rem;
 	width: 100%;
 	background-color: @secondary-color-uady;
 	@media (min-width: @screen-desktop) {
 		height:  120px;
 		background-color: #FFFFFF;
-		margin: 0 0;//100%
+		margin: 0 0;
 		width: 100%;
 	}
 }
 
 .logo_uady{
 	position: absolute;
-	//left: @nav-menu-height;
 	left: 0;
-	//right: 0;
 	margin-top: 0;
 	margin-bottom: 0;
-	//padding-left: @base;
 	text-align: left;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -53,7 +49,6 @@
 	font-family: @font-site-title;
 	font-size: @font-sml;
 	> a {
-		//display: inline-block;
 		margin-top: @half;
 		margin-bottom: @half;
 		padding: 0;
@@ -64,7 +59,6 @@
 
 		img {
 			display: block;
-			//max-height: @nav-menu-height - @base;
 			max-height: 6.1rem;
 			max-width: 100%;
 			width: auto;
@@ -72,40 +66,6 @@
 		}
 	}
 }
-
-/*.logo_fmat{
-	position: absolute;
-	//left: @nav-menu-height;
-	right: 0;
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-left: @base;
-	text-align: left;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	color: @text-bg-base;
-	font-family: @font-site-title;
-	font-size: @font-sml;
-	> a {
-		display: inline-block;
-		margin-top: @half;
-		margin-bottom: @half;
-		padding: 0;
-
-		&:focus {
-			outline: 1px solid @text-bg-base;
-		}
-
-		img {
-			display: block;
-			max-height: @nav-menu-height - @base;
-			max-width: 100%;
-			width: auto;
-			height: auto;
-		}
-	}
-}*/
 
 .issnText{
 	position: absolute;
@@ -133,41 +93,12 @@
 	
 }
 
-.issn{
-	position: absolute;
-	//left: @nav-menu-height;
-	//right: @triple;
-	left: 50%;
-	margin-top: 0;
-	top: 3.4rem;
-	margin-bottom: 0;
-	padding-left: @base;
-	text-align: left;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	color: @text-bg-base;
-	font-family: @font-site-title;
-	font-size: @font-sml;
-	> img {
-			display: block;
-			max-height: @nav-menu-height - @base;
-			max-width: 100%;
-			width: auto;
-			height: auto;
-	}
-}
-
 // Site logo/name
 .pkp_site_name {
 	position: absolute;
-	//left: 11rem;
-	//left: @nav-menu-height;
-	//right: 0;
 	left: 11rem;
 	margin-top: 0;
 	margin-bottom: 0;
-	//padding-left: @base;
 	text-align: left;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -223,35 +154,8 @@
 }
 
 @media(max-width: @screen-phone ) {
-	.issn{
-		position: absolute;
-		//left: @nav-menu-height;
-		//right: @triple;
-		right: 0;
-		left: 12rem;
-		margin-top: 0;
-		top: 3.3rem;
-		margin-bottom: 0;
-		padding-left: @base;
-		text-align: left;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-		color: @text-bg-base;
-		font-family: @font-site-title;
-		font-size: @font-sml;
-		> img {
-				display: block;
-				max-height: @nav-menu-height - @base;
-				max-width: 100%;
-				width: auto;
-				height: auto;
-		}
-	}
 	.issnText{
 		position: absolute;
-		//left: @nav-menu-height;
-		//right: @triple;
 		right: 0;
 		left: 11rem;
 		margin-top: 0;
@@ -262,7 +166,6 @@
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
-		//color: @text-bg-base;
 		color: #FFFFFF;
 		font-family: @font-site-title;
 		font-size: 0.5rem;
@@ -276,8 +179,6 @@
 	}
 	.pkp_site_name {
 		position: absolute;
-		//left: 11rem;
-		//left: @nav-menu-height;
 		right: 0;
 		margin-top: 0;
 		margin-bottom: 0;
@@ -340,7 +241,6 @@
 .pkp_navigation_primary_wrapper {
 	padding-left: 0;
 	padding-right: 0;
-	//background-color: @seondary-color-uady;
 }
 
 // Mobile navigation menu
@@ -363,20 +263,17 @@
 
 		ul {
 			padding-left: 0.5rem;
-			//background-color: @dropdown-color-uady;
 		}
 	}
 
 	a {
 		display: inline-block;
 		padding: 0.125rem 0;
-		//color: @text-bg-base;
 		color: @secondary-color-uady;
 		text-decoration: none;
 
 		&:hover,
 		&:focus {
-			//color: @text-bg-base;
 			color: @primary-color-uady;
 			text-decoration: underline;
 		}
@@ -405,7 +302,6 @@
 		height: @double;
 		margin-left: 0.5em;
 		border-radius: 50%;
-		//background: @bg-base-border-color;
 		background-color: @secondary-color-uady;
 		color: #FFFFFF;
 		line-height: @double;
@@ -423,15 +319,12 @@
 	> li > ul a {
 		.task_count {
 			display: inline-block;
-			//background: @bg-base-border-color;
 			background-color: @secondary-color-uady;
-			//color: @text-bg-base;
 			color: #FFFFFF;
 		}
 
 		&:hover .task_count,
 		&:focus .task_count {
-			//background: @text;
 			color: @secondary-color-uady;
 			background-color: @primary-color-uady;
 		}
@@ -471,11 +364,9 @@
 	.logo_uady {
 		position: relative;
 		height: @quadruple*2;
-		//top: 1rem;
 		width: fit-content;
 		left: 1rem;
 		right: auto;
-		//bottom: 2rem;
 		padding: 0;
 		white-space: normal;
 		font-size: 2em; // Prevents extra vertical space after logos
@@ -483,45 +374,18 @@
 		overflow: visible;
 
 		> a > img {
-			//max-height: 80px; // must match height - padding of .is_img
 			max-height: 120px;
 		}
 	}
-/*
-	.logo_fmat {
-		position: relative;
-		height: @quadruple*2;
-		//top: @quadruple;
-		//width: auto;
-		left: 60rem;
-		bottom: 10rem;
-		width: max-content;
-		//left: auto;
-		//right: 0;
-		padding: 0;
-		white-space: normal;
-		font-size: 2em; // Prevents extra vertical space after logos
-		background: transparent;
-		overflow: visible;
-
-		> a > img {
-			max-height: 80px; // must match height - padding of .is_img
-		}
-	}*/
 
 	.issnText {
 		position: relative;
 		height: @quadruple*2;
-		//top: @quadruple * 2;
-		//width: auto;
 		width: max-content;
 		top: auto;
-		//left: 55rem;
 		left: -0.5rem;
 		bottom: 8.5rem;
 		float: right;
-		//left: auto;
-		//right: 0;
 		padding: 0;
 		white-space: normal;
 		font-size: 0.7em; // Prevents extra vertical space after logos
@@ -534,38 +398,11 @@
 		}
 	}
 
-	.issn {
-		position: relative;
-		height: @quadruple*2;
-		//top: @quadruple * 2;
-		//width: auto;
-		width: max-content;
-		top: auto;
-		//left: 55rem;
-		left: 1rem;
-		bottom: 8.5rem;
-		float: right;
-		//left: auto;
-		//right: 0;
-		padding: 0;
-		white-space: normal;
-		font-size: 2em; // Prevents extra vertical space after logos
-		background: transparent;
-		overflow: visible;
-
-		> img {
-			max-height: 80px; // must match height - padding of .is_img
-		}
-	}
-
 	.pkp_site_name {
 		position: relative;
-		//width: 100%;
 		width: max-content;
 		height: @quadruple*2;
-		//left: auto;
 		bottom: 3.5rem;
-		//left: 22rem;
 		left: 35%;
 		right: auto;
 		padding: 0;
@@ -599,7 +436,7 @@
 	// Site logo/nav on same line on larger screens
 	.has_site_logo .pkp_head_wrapper {
 		padding-top: @triple;
-		width: 100%;//100%
+		width: 100%;
 	}
 
 	.pkp_nav_list {
@@ -634,7 +471,6 @@
 			width: 15em;
 			margin: 0;
 			padding: 0;
-			//background: @bg;
 			background-color: @dropdown-color-uady;
 			border-radius: @radius;
 			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
@@ -652,11 +488,8 @@
 				&:hover,
 				&:focus {
 					outline: 0;
-					//background: @bg-shade;
 					background-color: @dropdown-select-color-uady;
-					//border-color: @primary;
 					border-color: @dropdown-select-color-uady;
-					//color: @primary;
 				}
 			}
 
@@ -700,23 +533,18 @@
 				padding: @half 0.5em
 					calc(~"@{pkp_nav_primary_row_el_padding} - 2px"); // -2 to account for border size
 				border-bottom: 2px solid transparent;
-				//color: @text-bg-base;
 				color: #FFFFFF;
 				text-decoration: none;
 
 				&:hover {
-					//color: @text-bg-base;
 					color: @secondary-color-uady;
 					background-color: #FFFFFF;
 					outline: 0;
-					//border-color: @text-bg-base;
 					border-color: @dropdown-select-color-alt-uady;
 				}
 
 				&:focus {
-					//background: @text-bg-base;
 					background-color: #FFFFFF;
-					//color: @bg-base;
 					color: @secondary-color-uady;
 					outline: 0;
 				}
@@ -750,7 +578,6 @@
 
 		.dropdown-menu a:focus,
 		.dropdown-menu a:hover {
-			//border-color: @primary;
 			border-color: @dropdown-select-color-alt-uady;
 			color: @secondary-color-uady;
 		}
@@ -782,8 +609,6 @@
 		top: 0;
 		left: 50%;
 		transform: translateX(-50%);
-		//padding-left: @base;100%
-		//padding-right: @base;100%
 		width: 100%;
 		text-align: right;
 		padding-top: 0;
@@ -795,7 +620,6 @@
 	.pkp_navigation_user {
 		text-align: right;
 		font-size: @font-sml;
-		//padding-right: @double;100%
 		background-color: @primary-color-uady;
 		width: 100%;
 
@@ -818,17 +642,13 @@
 
 		> li > a:focus {
 			outline: 0;
-			//background: @text-bg-base;
 			background-color: #FFFFFF;
-			//color: @bg-base;
 			color: @primary-color-uady;
 		}
 
 		> li > a:hover {
 			outline: 0;
-			//background: @text-bg-base;
 			background-color: #FFFFFF;
-			//color: @bg-base;
 			color: @primary-color-uady;
 		}
 		
@@ -853,9 +673,7 @@
 		}
 		
 		> li > a:focus .task_count, a:hover .task_count {
-			//background: @bg-base;
 			background-color: @primary-color-uady;
-			//color: @text-bg-base;
 			color: @secondary-color-uady;
 		}
 
@@ -885,12 +703,10 @@
 			padding: @half 0.5em
 				calc(~"@{pkp_nav_primary_row_el_padding} - 2px"); // -2 to account for border size
 			border-bottom: 2px solid transparent;
-			//color: @text-bg-base;
 			color: #FFFFFF;
 			text-decoration: none;
 
 			&:hover {
-				//color: @text-bg-base;
 				color: @secondary-color-uady;
 				background-color: #FFFFFF;
 				outline: 0;
@@ -899,8 +715,6 @@
 			}
 
 			&:focus {
-				//background: @text-bg-base;
-				//color: @bg-base;
 				background-color: #FFFFFF;
 				color: @secondary-color-uady;
 				outline: 0;
