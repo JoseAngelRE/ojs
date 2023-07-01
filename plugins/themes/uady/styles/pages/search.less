@@ -72,10 +72,22 @@
 			&:extend(.cmp_button all);
 			.cmp_button_icon(@fa-var-search);
 			.cmp_button_icon_left(@fa-var-search);
+			color: @secondary-color-uady;
 
 			&:after {
 				right: auto;
 				left: 0;
+				background: @secondary-color-uady;
+				color: #FFFFFF;
+			}
+
+			&:hover{
+				color: @primary-color-uady;
+
+				&:after {
+					background: @primary-color-uady;
+					color: @secondary-color-uady;
+				}
 			}
 		}
 	}
