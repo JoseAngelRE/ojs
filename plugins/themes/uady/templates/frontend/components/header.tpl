@@ -42,31 +42,10 @@
 						<img src="{$baseUrl}/templates/images/structure/UADY.jpg" alt="logo_uady" width="" height="60" />
 					</a>
 					</div>
-
-					{if !$requestedPage || $requestedPage === 'index'}
-						<h1 class="pkp_screen_reader">
-							{if $currentContext}
-								{$displayPageHeaderTitle|escape}
-							{else}
-								{$siteTitle|escape}
-							{/if}
-						</h1>
-					{/if}
 					<div class="pkp_site_name">
-					{capture assign="homeUrl"}
-						{url page="index" router=$smarty.const.ROUTE_PAGE}
-					{/capture}
-					{if $displayPageHeaderLogo}
-						<a href="{$homeUrl}" class="is_img">
-							<img src="{$publicFilesDir}/{$displayPageHeaderLogo.uploadName|escape:"url"}" width="{$displayPageHeaderLogo.width|escape}" height="{$displayPageHeaderLogo.height|escape}" {if $displayPageHeaderLogo.altText != ''}alt="{$displayPageHeaderLogo.altText|escape}"{/if} />
-						</a>
-					{elseif $displayPageHeaderTitle}
-						<a href="{$homeUrl}" class="is_text">{$displayPageHeaderTitle|escape}</a>
-					{else}
-						<a href="{$homeUrl}" class="is_img">
+					<a href="{$homeUrl}" class="is_img">
 							<img src="{$baseUrl}/templates/images/structure/LogoRevista.png" alt="{$applicationName|escape}" title="{$applicationName|escape}" width="180" height="90" />
 						</a>
-					{/if}
 					</div>
 					<div class="issnText">
 					<h1>ISSN 2007 - 2635</h1>					
