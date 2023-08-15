@@ -39,12 +39,12 @@
 
 					<div class="logo_uady">
 					<a href="https://www.uady.mx/">
-						<img src="{$baseUrl}/templates/images/structure/UADY.jpg" alt="logo_uady" width="" height="60" />
+						<img src="{$baseUrl}/plugins/themes/uady/templates/images/structure/UADY.jpg" alt="logo_uady" width="" height="60" />
 					</a>
 					</div>
 					<div class="pkp_site_name">
 					<a href="{$homeUrl}" class="is_img">
-							<img src="{$baseUrl}/templates/images/structure/LogoRevista.png" alt="{$applicationName|escape}" title="{$applicationName|escape}" width="180" height="90" />
+							<img src="{$baseUrl}/plugins/themes/uady/templates/images/structure/LogoRevista.png" alt="{$applicationName|escape}" title="{$applicationName|escape}" width="180" height="90" />
 						</a>
 					</div>
 					<div class="issnText">

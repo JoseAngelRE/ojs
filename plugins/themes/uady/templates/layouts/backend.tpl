@@ -34,7 +34,7 @@
 		<header class="app__header" role="banner">
 		<div class="logo_uady">
 			<a href="https://www.uady.mx/">
-				<img src="{$baseUrl}/templates/images/structure/UADY.jpg" alt="logo_uady" width="30px" height="30px" />
+				<img src="{$baseUrl}/plugins/themes/uady/templates/images/structure/UADY.jpg" alt="logo_uady" width="30px" height="30px" />
 			</a>
 		</div>
 			{if $availableContexts}

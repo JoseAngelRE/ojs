@@ -279,7 +279,7 @@
 <div class="uady_structure_terminosYcondiciones">
     <div class="uady_content_terminos">
         <div class="uady_contraloriasocial">
-            <p><a href="http://www.contraloriasocial.uady.mx/"><img src="{$baseUrl}/templates/images/structure/logo_contraloriasocial.png"></a></p>
+            <p><a href="http://www.contraloriasocial.uady.mx/"><img src="{$baseUrl}/plugins/themes/uady/templates/images/structure/logo_contraloriasocial.png"></a></p>
         </div>
         <div class="uady_infoTerminosYCondiciones"> 
             <p>Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica, de otra forma requiere permiso previo por escrito de la institución.</p>
